@@ -11,13 +11,21 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	add all the files needed for the logical change before making the commit. Examine the file using git status to make sure you age the right ones.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are helpful when working on a side project that may, or may not be commited to the main branch. It helps for storing different versions of the game.
 
 How do the diagrams help you visualize the branch structure?
+
+	they help you know what kinds of commits and branches are reachable or not. 
+	REACHABLE: if you checkout a previous commit and make a comit to the node thats not in a branch, it will be unreachable if you check out another branch (unless you know the ID of the commit).
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+	The result of merging coin to the master branch is that all the coin branches changes are merged into the master branch. The coin branch lable is deleted, however the commits still remain. WHen you run git log, all the commits show up in order of time stamp.
+
+What are the pros and cons of Git automatic merging vs. always doing merges
 manually?
+
+	Git won't know when its a logical change. if it does the change automatically, there will always be versions to go back to.
