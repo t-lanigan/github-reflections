@@ -1,0 +1,13 @@
+This is a file storing all of the reflections done during the Git and Git Hub course offered by Udacity
+
+1. Using the diff command has allowed me to easily see the differences between two files.
+
+2. Having easy access to old versions of a file will make me a more efficient programmer because it will be easier to see when things went wrong and what caused them.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	It's not automatic, there there may be things that you miss. But having it so that it's manual allows you to make the commits only when you feel that it is logical.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Because it allows you to work accross multiple files.
+
+5. I want to use git to keep track of my projects on git-hub and be a boss at machine learning.
